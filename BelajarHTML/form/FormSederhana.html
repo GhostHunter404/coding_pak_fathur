@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Sederhana</title>
+</head>
+<body>
+	<div align="center">
+		<h1 >Membuat Formulir Sederhana</h1>
+		<br>
+	</div>
+	<div>
+		<form>
+			<!-- untuk inputan NIM -->
+			<label for="nim">NIM :</label>
+			<input type="number" id="nim">
+			<br>
+
+			<!-- untuk inputan Nama -->
+			<label for="nama">NAMA :</label>
+			<input type="text" id="nama">
+			<br>
+
+			<!-- untuk inputan jenis Kelamin -->
+			<label for="jeneiskelamin">Jenis kelamin :</label>
+			<input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+			<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+			<br>
+
+			<!-- untuk inputan Hobi -->
+			<label for="hobi">Hobi :</label>
+			<input type="checkbox" id="Berenang"><label for="Berenang">Berenang</label>
+			<input type="checkbox" id="Bernyanyi"><label for="Bernyanyi">Bernyanyi</label>
+			<input type="checkbox" id="Ngoding"><label for="Ngoding">Ngoding</label>
+			<br>
+
+			<!-- untuk inputan Prodi -->
+			<label for="Prodi">Prodi :</label>
+			<select id="Prodi">
+				<option>S1 Teknik Informatika</option>
+				<option>S1 Sistem Informasi</option>
+				<option>D3 Manajemen Informatika</option>
+			</select>
+			<br>
+
+			<!-- untuk inputan alamat -->
+			<label for="alamat">Alamat</label>
+			<textarea id="alamat"></textarea>
+			<br>
+
+			<!-- Tombol dengan input namun tidak dianjurkan -->
+			<input type="submit" value="SIMPAN">
+
+			<!-- dianjurkan pakai tag button -->
+			<button type="submit">KIRIM</button>
+			<button type="reset">CANCEL</button>
+		</form>
+	</div>
+</body>
+</html>
